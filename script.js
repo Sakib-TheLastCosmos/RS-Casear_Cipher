@@ -10,7 +10,7 @@ function getAccess () {
         access()
     } else {
         var password = prompt('Enter the Password to access the encoder')
-        if (password == 191038) {
+        if (password == 191038) { // Change this
             sessionStorage.setItem('access', true)
             access()
         } else {
@@ -27,7 +27,7 @@ function access () {
     var mainSml = mainCpt.toLowerCase()
     
     
-    var revCpt = "ECDFIGJLOKMRPNUQSWTVAZHXYB" //ECBFADJLIGMHKNUQPWTSOZRXYV
+    var revCpt = "ECDFIGJLOKMRPNUQSWTVAZHXYB" // Change this
     var revSml = revCpt.toLowerCase()
     
     
